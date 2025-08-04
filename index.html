@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Save Tree</title>
+    <link rel="stylesheet" href="savetree.css">
+    <script src="savetree.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <div>
+            <h1 id="savetreetext">Save Tree</h1>
+            <svg id="tree" width="200" height="800" xmlns="http://www.w3.org/2000/svg">
+            </svg>
+        </div>
+        <div>
+            <textarea id="workspace"></textarea>
+            <div class="flex-container">
+                <div>
+                    <button id="save">Save</button>
+                </div>
+                <div>
+                    <button id="consolidate">Consolidate</button>
+                </div>
+            </div>
+        </div>
+        <div id="prompt">
+            <h3>You are encouraged to get comfortable with the interaction technique before beginning the data collection. In this technique, whenever you hit the blue save button, a white node on the save tree is created that represents the state of the document at the point at which you hit the button. The green node represents where you are currently in the document. If you would like to undo something up to the point where you hit save initially, you can click on the node (hovering over it will indicate the contents at that time) and you will create a parallel node to the one you were just on based on the node you just clicked. The node you were just on hasn't gone away - it's parallel to your new node on the tree and you can get back to it by clicking it without losing any progress. This process can then be repeated with new branches, allowing for a good variety of prototyping without the worry that you're losing anything. When you have an outcome you're satisfied with, the red consolidate button just reduces the tree to your current node and its immediate predecessor and you can move on to the next task. For the data collection, you will be asked to type a sentence, then replace part of it, and then reproduce the original sentence. You will be randomly asked to use the tool or to do it manually. Hit enter after you've typed the sentence, after you've done the undo/replacement process, and then after reproduced the sentence. There will be 5 sentences total. </h3>
+            <button id="start">Start!</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

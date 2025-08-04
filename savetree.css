@@ -1,0 +1,76 @@
+/* THIS CODE IS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY OTHER STUDENTS OR COPIED FROM ONLINE RESOURCES.
+Zia Dawood */
+/* svg canvas */
+#tree {
+    border: 2px solid #000;
+}
+
+/* Give the buttons a border and a drop shadow (which goes away when hovering)*/
+button {
+    border: 5px solid #5470c3;
+    padding: 5px;
+    font-size: x-large;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    box-shadow: 3px 3px 2px 1px rgb(255, 255, 255);
+}
+
+#savetreetext {
+    text-align: center;
+}
+
+#save {
+    background-color: deepskyblue;
+}
+#save:hover {
+    background-color: darkblue;
+}
+
+#consolidate {
+    background-color: palevioletred;
+    margin-left: 550%;
+}
+#consolidate:hover {
+    background-color: #9e4f72;
+}
+/* Needed to get stuff horizontally aligned */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/* properties of the text area where the user will be typing */
+textarea {
+    width: 1000px;
+    height: 800px;
+    margin: 20px;
+    border: 1px dashed #6052df;
+}
+
+/* default circle appreance - blues stroke, drop shadow, white fill */
+circle {
+    stroke-width: 2;
+    stroke: #5470c3;
+    filter: drop-shadow(5px 5px 4px black);
+    fill: white;
+}
+/* handle the hover case in css */
+circle:hover {
+    fill: lightseagreen;
+}
+
+/* the current node is darker and has no drop shadow to indicate that it's not clicable */
+.currentNode {
+    fill: seagreen;
+    filter: none;
+}
+/* don't change color when the current node is being hovered over - affordance to tell it's not clicable*/
+.currentNode:hover {
+    fill: seagreen;
+}
+
+line {
+    stroke-width: 3px;
+}

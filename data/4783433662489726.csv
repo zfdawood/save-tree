@@ -1,0 +1,6 @@
+test number,original,remake,time,errors,tool
+1,my watch fell in the water,my wathh fell in the waer, 15533,2,false
+2,prevailing wind from the east,prevailing wind from the east, 17209,0,true
+3,never too rich and never too thin,never too rich and never to thin, 25578,1,false
+4,breaching is difficult,breathing is difficult, 12694,1,true
+5,i can see the rings on staturn,i can see teh strom on saturn, 17526,8,false

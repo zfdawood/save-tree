@@ -1,0 +1,3 @@
+The application itself requires node, the built-in node filesystem module, express, and a reasonably modern web browser to deploy to (mostly tested on firefox 137.0). To run it, simply execute main.js with node. The user  data will be saved in the ./data folder. No external libraries are linked to in the client-side javascript.
+
+The evaluation expects that the data folder only contains csv files and that it is a subdirectory of this directory. To run the evaluation code, you need a jupyter notebook server, pandas, and python's built-in os module and then execute the cells.
